@@ -60,7 +60,7 @@ export const it: Dictionary = {
     },
     voicePanel: {
       title: 'Vivavoce',
-      hint: 'Nei quiz, attiva il microfono per rispondere a voce. Comandi: "riascolta", "avanti".',
+      hint: 'Attiva il microfono per controllare l\'app a voce.<br>Riproduzione: "riascolta", "avanti", "zitto".<br>Navigazione: "intervalli", "scale", "accordi", "auto training", "indietro", "chiudi app".<br>Difficoltà: "facile", "medio", "difficile", "custom".<br>Risposte: pronuncia il nome (es. "terza minore", "dorica", "settima maggiore").',
     },
     statsSummary: (answered, pct, days) => {
       const label = days === 1 ? 'giorno' : 'giorni';
