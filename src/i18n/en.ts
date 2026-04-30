@@ -60,7 +60,7 @@ export const en: Dictionary = {
     },
     voicePanel: {
       title: 'Hands-free',
-      hint: 'In quizzes, enable the mic to answer by voice. Commands: "replay", "next".',
+      hint: 'Enable the mic to control the app by voice.<br>Playback: "replay", "next", "quiet".<br>Navigation: "intervals", "scales", "chords", "auto training", "back", "close app".<br>Difficulty: "easy", "medium", "hard", "custom".<br>Answers: say the name (e.g. "minor third", "dorian", "major seventh").',
     },
     statsSummary: (answered, pct, days) => {
       const label = days === 1 ? 'day' : 'days';
