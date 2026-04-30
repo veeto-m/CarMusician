@@ -43,6 +43,12 @@ export interface Dictionary {
     boot: string;
   };
 
+  links: {
+    betaText: string;
+    instructionsSourceLabel: string;
+    feedbackLabel: string;
+  };
+
   home: {
     subtitle: string;
     section: {
@@ -51,6 +57,7 @@ export interface Dictionary {
       reference: string;
       progress: string;
       settings: string;
+      about: string;
     };
     card: {
       intervalsLabel: string;
