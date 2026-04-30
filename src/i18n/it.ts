@@ -26,6 +26,12 @@ export const it: Dictionary = {
     boot: 'Benvenuto in CarMusician! Cosa vuoi fare? Quiz intervalli, quiz scale, o auto training?',
   },
 
+  links: {
+    betaText: 'Versione di pre-rilascio',
+    instructionsSourceLabel: 'Istruzioni e codice sorgente',
+    feedbackLabel: 'Feedback e segnalazione bug',
+  },
+
   home: {
     subtitle: 'allena l\'orecchio a mani libere',
     section: {
@@ -34,6 +40,7 @@ export const it: Dictionary = {
       reference: 'Riferimento',
       progress: 'Progressi',
       settings: 'Impostazioni',
+      about: 'Informazioni',
     },
     card: {
       intervalsLabel: 'Quiz Intervalli',

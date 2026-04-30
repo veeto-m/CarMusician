@@ -26,6 +26,12 @@ export const en: Dictionary = {
     boot: 'Welcome to CarMusician! What would you like to do? Interval quiz, scale quiz, or auto training?',
   },
 
+  links: {
+    betaText: 'Pre-release version',
+    instructionsSourceLabel: 'Instructions & source code',
+    feedbackLabel: 'Feedback & bug reports',
+  },
+
   home: {
     subtitle: 'train your ear hands-free',
     section: {
@@ -34,6 +40,7 @@ export const en: Dictionary = {
       reference: 'Reference',
       progress: 'Progress',
       settings: 'Settings',
+      about: 'About',
     },
     card: {
       intervalsLabel: 'Interval Quiz',
