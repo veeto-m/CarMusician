@@ -1,0 +1,22 @@
+# Configurazione Cloudflare Workers (modello "Workers with Static Assets").
+# L'istanza carmusician gira come Worker: serve gli asset generati da
+# `vite build` in ./dist e intercetta /api/maestro e /api/tts tramite
+# worker/index.ts.
+#
+# Variabile ANTHROPIC_API_KEY: NON metterla qui. Va aggiunta come "Secret" dal
+# dashboard (Settings → Variables and Secrets) oppure con:
+#   wrangler secret put ANTHROPIC_API_KEY
+
+name = "carmusician"
+main = "worker/index.ts"
+compatibility_date = "2024-11-06"
+
+# Esegui il build Vite prima di qualunque deploy/upload.
+# Wrangler esegue questo comando sia con `wrangler deploy` sia con
+# `wrangler versions upload` (il Workers Builds CI usa quest'ultimo).
+[build]
+command = "npm run build"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"

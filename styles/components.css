@@ -1,0 +1,97 @@
+/* Shared UI components */
+
+/* Difficulty + content/speed selectors */
+.diff-row{display:flex;gap:6px;margin-bottom:14px}
+.diff-btn{flex:1;padding:10px;border-radius:14px;font-family:'Roboto Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;border:1px solid var(--hairline);background:var(--card);color:var(--textDim);transition:all .15s}
+.diff-btn.active{background:var(--accent);border-color:var(--accent);color:#1a0e05}
+.content-row{display:flex;gap:6px;margin-bottom:12px}
+.content-btn{flex:1;padding:10px;border-radius:8px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:1px;border:1px solid var(--border);color:var(--textDim);transition:all .2s}
+.content-btn.active{background:rgba(0,206,201,0.13);border-color:var(--auto);color:var(--auto)}
+.speed-row{display:flex;gap:6px;margin-bottom:12px;align-items:center}
+.speed-label{font-size:10px;color:var(--textMuted);min-width:54px}
+.speed-btn{flex:1;padding:8px;border-radius:6px;font-size:11px;font-weight:600;border:1px solid var(--border);color:var(--textDim);transition:all .2s}
+.speed-btn.active{border-color:var(--auto);background:rgba(0,206,201,0.08);color:var(--auto)}
+
+/* Cards (home quiz shortcuts) */
+.card{width:100%;background:var(--card);border:1px solid var(--hairline);border-radius:22px;padding:18px 22px;margin-bottom:10px;display:flex;align-items:center;gap:16px;text-align:left;transition:transform .12s ease,box-shadow .12s ease,background .15s;box-shadow:var(--shadow-deep);min-height:80px}
+.card:active{transform:scale(0.98);border-color:var(--borderActive);box-shadow:0 0 20px var(--accentGlow),var(--shadow-deep);background:var(--surfaceHover)}
+.card-icon{width:52px;height:52px;border-radius:16px;background:var(--card-hi);display:grid;place-items:center;flex-shrink:0;color:var(--accent);font-size:28px}
+.card-icon .msym{font-size:30px;color:var(--accent)}
+.card-label{font-family:'Roboto Flex','Roboto',sans-serif;font-size:17px;font-weight:600;letter-spacing:-0.01em;color:var(--text)}
+.card-desc{font-size:12px;color:var(--textDim);margin-top:4px;line-height:1.4}
+
+/* Stats bar */
+.stats-bar{display:flex;justify-content:space-between;background:var(--card);border-radius:18px;padding:12px 16px;margin-bottom:12px;border:1px solid var(--hairline);box-shadow:var(--shadow-deep)}
+.stat-val{font-size:17px;font-weight:800;text-align:center}
+.stat-label{font-size:8px;color:var(--textMuted);text-transform:uppercase;letter-spacing:1px;margin-top:2px;text-align:center}
+
+/* Play button (quiz/auto) */
+.play-btn{width:180px;height:180px;border-radius:50%;background:var(--amber);color:#1a0e05;border:none;display:flex;align-items:center;justify-content:center;transition:transform .12s ease,box-shadow .12s ease;margin:0 auto;box-shadow:0 12px 28px var(--amber-glow)}
+.play-btn .msym{font-size:80px;font-variation-settings:'FILL' 1,'wght' 500,'GRAD' 0,'opsz' 48}
+.play-btn:active{transform:scale(0.97)}
+.play-btn.playing{animation:pulse-amber 1.4s ease-in-out infinite}
+.play-btn-big{width:200px;height:200px}
+.play-btn-big .msym{font-size:88px}
+.play-btn-big.running{background:var(--auto);color:#1a0e05;box-shadow:0 12px 28px var(--autoGlow)}
+.play-btn-big.running.playing{animation:pulse-amber 1.4s ease-in-out infinite}
+
+/* Quiz options grid */
+.options-grid{display:grid;gap:7px;margin-bottom:12px}
+.opt-btn{padding:14px 6px;border-radius:16px;border:1px solid var(--hairline);background:var(--card);font-size:12px;font-weight:500;transition:all .15s;display:flex;flex-direction:column;align-items:center;gap:3px;min-height:58px}
+.opt-btn:active{border-color:var(--borderActive);background:var(--surfaceHover);transform:scale(0.97)}
+.opt-btn .abbr{font-size:15px}
+.opt-btn .name{font-size:9px;color:var(--textMuted);font-weight:400}
+.opt-btn.correct{background:var(--correctGlow);border-color:var(--correct);color:var(--correct)}
+.opt-btn.wrong{background:var(--wrongGlow);border-color:var(--wrong);color:var(--wrong)}
+.next-btn{width:100%;padding:16px;border-radius:16px;background:var(--accent);color:#1a0e05;font-family:'Roboto Flex','Roboto',sans-serif;font-size:15px;font-weight:600;letter-spacing:0.02em;margin-bottom:8px;box-shadow:0 8px 20px var(--accentGlow);transition:transform .12s ease}
+.next-btn:active{transform:scale(0.98)}
+
+/* Feedback + AI insight */
+.feedback{padding:10px 18px;border-radius:10px;text-align:center;margin-top:8px}
+.feedback.ok{background:var(--correctGlow);border:1px solid var(--correct)}
+.feedback.ko{background:var(--wrongGlow);border:1px solid var(--wrong)}
+.feedback-text{font-size:15px;font-weight:700}
+.feedback-detail{font-size:11px;color:var(--textDim);margin-top:3px}
+.ai-insight{margin-top:10px;padding:12px 14px;border-radius:10px;background:var(--aiGlow);border:1px solid var(--ai);font-size:12px;line-height:1.6;color:var(--text);text-align:left}
+.ai-insight .ai-label{font-size:9px;color:var(--ai);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:6px;font-weight:700}
+.ai-insight .ai-loading{color:var(--textDim);font-style:italic}
+.sonic-compare{margin-top:8px;display:flex;gap:8px;justify-content:center}
+.sonic-btn{padding:8px 14px;border-radius:8px;border:1px solid var(--border);font-size:11px;font-weight:600;background:var(--surface);transition:all .2s}
+.sonic-btn:active{border-color:var(--accent);background:var(--surfaceHover)}
+
+/* Mic + voice badge + advance row + toggle */
+.mic-btn{width:56px;height:56px;border-radius:50%;border:1px solid var(--hairline);background:var(--card);color:var(--textDim);display:flex;align-items:center;justify-content:center;transition:all .2s;flex-shrink:0}
+.mic-btn .msym{font-size:26px}
+.mic-btn.on{background:var(--voiceGlow);border-color:var(--voice);color:var(--voice);box-shadow:0 0 16px var(--voiceGlow)}
+.voice-badge{position:fixed;top:12px;left:50%;transform:translateX(-50%);z-index:100;display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:6px 14px;transition:all .3s}
+.voice-badge.listening{border-color:var(--voice);box-shadow:0 0 16px var(--voiceGlow)}
+.voice-dot{width:10px;height:10px;border-radius:50%;background:var(--voice)}
+.voice-dot.listening{animation:voicePulse 1.5s ease-in-out infinite}
+.voice-text{font-size:10px;color:var(--textDim);letter-spacing:1px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.advance-row{display:flex;align-items:center;justify-content:space-between;background:var(--voiceGlow);border:1px solid var(--hairline);border-radius:14px;padding:10px 14px;margin-bottom:12px}
+.toggle-sw{width:44px;height:24px;border-radius:12px;border:none;position:relative;transition:all .2s;cursor:pointer}
+.toggle-sw.on{background:var(--voice)}
+.toggle-sw.off{background:var(--border)}
+.toggle-kn{width:18px;height:18px;border-radius:50%;background:#fff;position:absolute;top:3px;transition:all .2s}
+.toggle-sw.on .toggle-kn{left:23px}
+.toggle-sw.off .toggle-kn{left:3px}
+
+/* History + pause rows */
+.history-panel{background:var(--card);border:1px solid var(--hairline);border-radius:16px;padding:12px;margin-bottom:12px;max-height:140px;overflow-y:auto}
+.history-row{display:flex;justify-content:space-between;padding:4px 0;font-size:11px;border-bottom:1px solid var(--border)}
+.history-row:last-child{border-bottom:none}
+.pause-row{display:flex;align-items:center;justify-content:space-between;background:var(--card);border:1px solid var(--hairline);border-radius:16px;padding:12px 16px;margin-bottom:16px}
+.pause-btn{border:1px solid var(--border);border-radius:6px;padding:4px 12px;font-size:18px;color:var(--text)}
+.pause-val{font-size:18px;font-weight:700;color:var(--auto);min-width:30px;text-align:center}
+
+/* Theme swatch + scale chip */
+.theme-swatch{display:flex;gap:10px;flex-wrap:wrap}
+.theme-swatch button{width:44px;height:44px;border-radius:14px;border:2px solid var(--hairline);cursor:pointer;padding:0;transition:transform .12s ease,border-color .15s}
+.theme-swatch button:active{transform:scale(0.95)}
+.theme-swatch button.active{border-color:var(--text);box-shadow:0 0 0 3px var(--accentGlow)}
+.scale-chip{padding:8px 12px;border-radius:999px;font-size:12px;font-weight:500;border:1px solid var(--hairline);background:var(--card);color:var(--textDim);transition:all .15s;-webkit-user-select:none;user-select:none}
+.scale-chip.selected{background:var(--accentGlow);border-color:var(--accent);color:var(--accent)}
+
+/* Debug overlay */
+.debug-log{position:fixed;bottom:0;left:0;right:0;max-height:120px;overflow-y:auto;background:rgba(0,0,0,0.9);color:#0f0;font-size:10px;padding:6px 10px;z-index:200;display:none;font-family:monospace;line-height:1.5}
+.debug-toggle{position:fixed;bottom:4px;right:4px;z-index:201;font-size:9px;background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:3px 8px;color:var(--textMuted)}

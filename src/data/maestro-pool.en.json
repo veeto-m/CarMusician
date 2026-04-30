@@ -1,0 +1,645 @@
+{
+  "locale": "en",
+  "intervals": {
+    "1": {
+      "ascending": [
+        "The shark theme by John Williams, that unsettling rip.",
+        "A steady breath, nothing more.",
+        "The first step, entirely in another note.",
+        "Pure note, without movement.",
+        "An immobile certainty.",
+        "The starting point, identical to itself.",
+        "A confirmation: you're still here.",
+        "Solid, static, the note that embraces itself."
+      ],
+      "descending": [
+        "Für Elise by Beethoven, that gentle descent.",
+        "A note that returns home.",
+        "The pull downward, mirror of itself.",
+        "Nothing falls, nothing rises.",
+        "The stability of sound that doesn't move.",
+        "A flat line, the silence of movement.",
+        "Cold and pure, without choice.",
+        "The unchanging carpet beneath your feet."
+      ],
+      "harmonic": [
+        "Two voices of the same soul.",
+        "Absolute unison, a single voice.",
+        "The perfect echo of itself.",
+        "No space between them, only identity.",
+        "The total marriage of sound.",
+        "Two become one, without compromise.",
+        "The truest doubling that exists.",
+        "Broken mirror? No, a perfect mirror."
+      ]
+    },
+    "2m": {
+      "ascending": [
+        "Half a step, the tightest embrace.",
+        "Mute tension, the kind that scratches.",
+        "Frère Jacques has a disharmonic cousin.",
+        "Almost a whisper, almost a scream.",
+        "Two notes glued together, reluctantly.",
+        "The smallest space of unease.",
+        "A fingernail scrapes across the canvas.",
+        "The claustrophobic climb, the closest."
+      ],
+      "descending": [
+        "A descent so tight, almost immobile.",
+        "The shortest step downward.",
+        "A contraction of sound onto itself.",
+        "The most intimate distance between two notes.",
+        "A whisper that falls barely at all.",
+        "The space of a held breath.",
+        "Sound compression, not expansion.",
+        "A silk thread between two worlds."
+      ],
+      "harmonic": [
+        "Acidic dissonance, the kind that pulls.",
+        "Two notes that are enemies in the same room.",
+        "Pure friction, sonic wear.",
+        "The smallest collision, essential discomfort.",
+        "Nearness that burns, palpable tension.",
+        "Two voices that barely repel each other.",
+        "The aching clash of a half step.",
+        "Discomfort compressed in just millimeters of sound."
+      ]
+    },
+    "2M": {
+      "ascending": [
+        "Frère Jacques, the classic Italian round.",
+        "A whole step, the natural movement of the voice.",
+        "Gentle climb, the one children take.",
+        "The friendly second, the one that lets you breathe.",
+        "A whole tone of relief.",
+        "Opens the space, the sound breathes.",
+        "The climb everyone remembers.",
+        "Two notes that meet without hurry."
+      ],
+      "descending": [
+        "A fluid descent of one whole step.",
+        "The right space for a comfortable phrase.",
+        "Descends naturally, like a home staircase.",
+        "A breathable pause between two moments.",
+        "The step the voice prefers.",
+        "Movement downward without strain.",
+        "Sweetness in the fall of a whole step.",
+        "The interval of musical common sense."
+      ],
+      "harmonic": [
+        "Two notes that embrace each other lightly.",
+        "Soft consonance and welcoming.",
+        "Together without conflict, natural harmony.",
+        "The sound of peace between two notes.",
+        "Kind agreement, the one that consoles.",
+        "Two voices walking together.",
+        "Warm stability, not cold.",
+        "One beside the other, without tension."
+      ]
+    },
+    "3m": {
+      "ascending": [
+        "Smoke on the Water by Deep Purple, that dark riff.",
+        "A tight third, the melancholic sound.",
+        "Rises three semitones, the path of sadness.",
+        "A medium leap that smells of nostalgia.",
+        "The darkness of the minor third, deep and introverted.",
+        "Upward, but with the air of weeping.",
+        "The climb that tells a sad story.",
+        "Three semitones of pure melancholy."
+      ],
+      "descending": [
+        "Hey Jude by The Beatles, that iconic descent.",
+        "Descends a minor third, the musical cry.",
+        "Three semitones downward, the lament.",
+        "A descent that smells of goodbye.",
+        "The downward gaze of the minor third.",
+        "Falls gently, without hope.",
+        "Movement that whispers resignation.",
+        "Three semitones of tender sickness."
+      ],
+      "harmonic": [
+        "The foundation of minor, that dark trinity.",
+        "Two notes that dance in shadow.",
+        "Grave consonance, the kind that moves.",
+        "A chord that smells of moderated sadness.",
+        "The emotional foundation of complete minor.",
+        "Together singing without joy.",
+        "Melancholic stability, sure but dark.",
+        "Two voices in shadow, loyally sad."
+      ]
+    },
+    "3M": {
+      "ascending": [
+        "The brightness of the major third.",
+        "The sun rises, three semitones of light.",
+        "The ascending smile of the constructive interval.",
+        "Open and positive, the first movement of major.",
+        "A climb that sings pure joy.",
+        "Three semitones toward hope.",
+        "The blue that rises, growing clarity.",
+        "The ray of musical happiness."
+      ],
+      "descending": [
+        "Gentle descent of a major third.",
+        "The serene gaze that descends.",
+        "Three semitones of benevolence.",
+        "Sweet fall without loss of air.",
+        "Descends keeping the warmth.",
+        "The major third in reverse, mild and serene.",
+        "Descending movement that consoles.",
+        "Three semitones of warm peace."
+      ],
+      "harmonic": [
+        "The luminous core of every major chord.",
+        "Two notes that recognize each other as friends.",
+        "The perfect consonance of maximum positivity.",
+        "Together breathing contentment.",
+        "The most natural sonic embrace.",
+        "Pure and happy stability.",
+        "Two voices in complete harmony.",
+        "The certainty of shared beauty."
+      ]
+    },
+    "4": {
+      "ascending": [
+        "When the Saints Go Marching In, that sacred trumpet.",
+        "The fourth, the bridge between worlds.",
+        "Severe climb, the one of solemnity.",
+        "Five semitones of spatiality.",
+        "Toward the sky with dignity.",
+        "A leap that resonates in space.",
+        "Ascent that builds cathedrals.",
+        "The suspended passage between two regions."
+      ],
+      "descending": [
+        "The fourth that descends, the return to earth.",
+        "A controlled leap downward.",
+        "Five semitones of melancholic return.",
+        "Descent built, not collapsed.",
+        "Movement that maintains dignity.",
+        "Descends like a bell returning.",
+        "The grave displacement of the fourth.",
+        "Five semitones toward the foundation."
+      ],
+      "harmonic": [
+        "The empty chord, the fifth-less fourth.",
+        "Two notes that don't quite touch.",
+        "Licensed dissonance, but elegant.",
+        "Together suspended, neither chord nor conflict.",
+        "The open space between two pillars.",
+        "Imperfect consonance, the discomfort of uncertainty.",
+        "Two voices searching for a third.",
+        "Instability that traps the spirit."
+      ]
+    },
+    "TT": {
+      "ascending": [
+        "The tritone, the diabolus in musica, infernal climb.",
+        "Six semitones of pure otherness.",
+        "Toward the incomprehensible, the broken sound.",
+        "The interval that disturbs, homeless.",
+        "A climb that doesn't know where to go.",
+        "The harmonic horror, the ascending void.",
+        "Six semitones of total discord.",
+        "Toward the abyss, the lost interval."
+      ],
+      "descending": [
+        "The tritone descending, evil in reverse.",
+        "Six semitones of controlled chaos.",
+        "Descends into the abyss with the same discomfort.",
+        "The impossible fall, nothing like before.",
+        "Dissonance without redemption, downward.",
+        "Descent with no memory of home.",
+        "Six semitones of pure confusion.",
+        "Toward the depths, without return."
+      ],
+      "harmonic": [
+        "The supreme discord, total disharmony.",
+        "Two notes that refuse each other.",
+        "Absolute conflict, without compromise.",
+        "Dissonance that tears, that wounds.",
+        "Together that shakes the foundations.",
+        "Two voices in declared war.",
+        "Maximum instability, certified chaos.",
+        "The deepest sonic enmity."
+      ]
+    },
+    "5": {
+      "ascending": [
+        "Wagner's bridal chorus, that majestic climb.",
+        "The perfect fifth, the purest sound of nature.",
+        "Seven semitones of perfect resonance.",
+        "Rises with the force of a perfect fifth.",
+        "Upward with absolute certainty.",
+        "The interval of quiet power.",
+        "A climb that sounds like home.",
+        "Seven semitones of sonic glory."
+      ],
+      "descending": [
+        "The perfect fifth that descends, noble descent.",
+        "Seven semitones of serene return.",
+        "Falls with the dignity of perfection.",
+        "Descends naturally, like water on a slope.",
+        "Movement that maintains power.",
+        "Descent of pure resonance.",
+        "Seven semitones toward solid foundation.",
+        "The return to the home of the fifth."
+      ],
+      "harmonic": [
+        "The pure fifth, the sound of nature itself.",
+        "Two notes that vibrate in the same universe.",
+        "Perfect consonance, the one without reserve.",
+        "Empty but perfect chord, the pure fifth.",
+        "Together that sounds like heaven.",
+        "Two voices that resonate in harmony.",
+        "Absolute stability, the one of origin.",
+        "The certainty of infinite sound."
+      ]
+    },
+    "6m": {
+      "ascending": [
+        "The minor sixth, that mature and intense one.",
+        "Eight semitones of nostalgic breadth.",
+        "Rises without haste, depth and warmth.",
+        "Upward with the sweetness of memory.",
+        "The interval of accumulated experience.",
+        "A climb that tells a whole life.",
+        "Eight semitones of melancholic beauty.",
+        "Toward an intimate and distant horizon."
+      ],
+      "descending": [
+        "The minor sixth that descends, contemplative return.",
+        "Eight semitones toward memory.",
+        "Gentle fall of nostalgia.",
+        "Descends like a mature declaration.",
+        "Movement that smells of experience.",
+        "Descent of the minor sixth, deep and warm.",
+        "Eight semitones toward reflection.",
+        "The return to tenderness."
+      ],
+      "harmonic": [
+        "Two notes that recognize each other after time.",
+        "Rich consonance, the one of complexity.",
+        "Together that sounds aware and cultured.",
+        "A chord that contains a story.",
+        "Two mature voices, in deep dialogue.",
+        "Stability that has already suffered.",
+        "Beauty that knows pain.",
+        "The intimacy of refined sound."
+      ]
+    },
+    "6M": {
+      "ascending": [
+        "The major sixth, the one that flies lightly.",
+        "Nine semitones of broad joy.",
+        "Rises toward the sky with confidence.",
+        "Upward, spacious and luminous.",
+        "The interval of constructed optimism.",
+        "A climb that embraces all space.",
+        "Nine semitones of beatitude.",
+        "Toward infinity, serene and aware."
+      ],
+      "descending": [
+        "The major sixth that descends, sweet and wide descent.",
+        "Nine semitones of loving fall.",
+        "Falls maintaining the beauty of flight.",
+        "Descends spacious, without haste.",
+        "Movement that smells of gratitude.",
+        "Descent of the major sixth, serene and full.",
+        "Nine semitones toward happy rest.",
+        "The return to welcome."
+      ],
+      "harmonic": [
+        "Two notes that look at each other with affection.",
+        "Splendid consonance, the one of generosity.",
+        "Together that radiates warmth.",
+        "A chord that smells of conquered serenity.",
+        "Two voices in mutual celebration.",
+        "Beautiful stability, the one that elevates.",
+        "Joy in purely sonic form.",
+        "The happy and aware union."
+      ]
+    },
+    "7m": {
+      "ascending": [
+        "Somewhere from West Side Story, the climb of dreams.",
+        "Ten semitones toward the unreal.",
+        "Rises with the sweetness of the minor seventh.",
+        "Upward, the domain of the incomplete.",
+        "The interval that promises without delivering.",
+        "A climb rich in emotional tension.",
+        "Ten semitones toward the almost-right.",
+        "Toward the failed sky, the unrealized dream."
+      ],
+      "descending": [
+        "The minor seventh that descends, the refined lament.",
+        "Ten semitones toward resignation.",
+        "Fall of the almost-right, with sweetness.",
+        "Descends rich, but incomplete.",
+        "Movement that smells of repressed desire.",
+        "Descent of the minor seventh, bitter and cultured.",
+        "Ten semitones toward uncertain peace.",
+        "The return to sonic regret."
+      ],
+      "harmonic": [
+        "Two notes that almost reconcile.",
+        "Imperfect consonance, the one of doubt.",
+        "Together rich but anxious.",
+        "A chord that desires to resolve.",
+        "Two voices in incomplete dialogue.",
+        "Instability that fascinates.",
+        "The beauty of the unsaid.",
+        "The tenderness of absence."
+      ]
+    },
+    "7M": {
+      "ascending": [
+        "Star Wars by John Williams, the celestial major seventh.",
+        "Eleven semitones toward completeness.",
+        "Rises at the limit, almost the octave.",
+        "Upward, the maximum without exceeding.",
+        "The interval of near-perfection.",
+        "A climb that reaches the sky.",
+        "Eleven semitones of illumination.",
+        "Toward the boundary of the possible."
+      ],
+      "descending": [
+        "The major seventh that descends, regal descent.",
+        "Eleven semitones toward regal rest.",
+        "Falls from perfection with elegance.",
+        "Descends from the almost-octave, serene.",
+        "Movement that has the dignity of completion.",
+        "Descent of the major seventh, luminous.",
+        "Eleven semitones toward resolution.",
+        "The return from an almost-infinity."
+      ],
+      "harmonic": [
+        "Two notes that almost rub in the sky.",
+        "Near-perfect consonance, the one of ascension.",
+        "Together that suggests completion.",
+        "A chord that desires the octave.",
+        "Two voices at the limit of perception.",
+        "Instability that pulls upward.",
+        "The beauty of the frontier.",
+        "The almost-achieved certainty."
+      ]
+    },
+    "8": {
+      "ascending": [
+        "Over the Rainbow from The Wizard of Oz, the octave that frees.",
+        "Twelve semitones, silence returns with a new voice.",
+        "Rises to the peak of the cycle, rebirth.",
+        "Upward, into another dimension of the same sound.",
+        "The interval of return transformed.",
+        "A climb that completes the circle.",
+        "Twelve semitones toward resurrection.",
+        "Toward the sky, with everything we are."
+      ],
+      "descending": [
+        "The octave that descends, return to lamentation and memory.",
+        "Twelve semitones toward aware resignation.",
+        "Falls into the completion of the circle.",
+        "Descends with the certainty of conclusion.",
+        "Movement that closes and opens together.",
+        "Descent of the octave, the return home.",
+        "Twelve semitones toward conclusive reflection.",
+        "The return to the beginning, but not the source."
+      ],
+      "harmonic": [
+        "Two voices of the same soul, separated by universe.",
+        "Perfect consonance repeated, unity doubled.",
+        "Together that sings in two octaves of the same truth.",
+        "A chord that is pure resonance, the sound of God.",
+        "Two identical voices, yet different.",
+        "Stability of infinite replication.",
+        "The beauty of symmetry beyond space.",
+        "The eternal certainty of reborn sound."
+      ]
+    }
+  },
+  "scales": {
+    "Mag": [
+      "The scale of the sun, Happy Birthday and pure joy.",
+      "The model of every light, the major scale.",
+      "Ascends like Ode to Joy, open and triumphant.",
+      "Construction of voices that cry out happiness.",
+      "The scale that sounds like transparent truth.",
+      "Luminosity, spatiality, the natural vision.",
+      "Eight notes that dance in positive awareness.",
+      "The scale of acceptance, the one where you live well."
+    ],
+    "min": [
+      "The scale of aware shadow, Bella Ciao at dawn.",
+      "The model of the unsaid, natural minor.",
+      "Ascends like Nothing Else Matters, introspective depth.",
+      "Construction of voices that whisper self-reflection.",
+      "The scale that sounds like underground truth.",
+      "Depth, intimacy, the vision of the heart.",
+      "Eight notes that walk in wise melancholy.",
+      "The scale of pain acceptance, the one where you heal."
+    ],
+    "m.arm": [
+      "The exotic scale, Hava Nagila from the endless party.",
+      "The model of distant gaze, harmonic minor.",
+      "Ascends like Misirlou, with the fire of distant worlds.",
+      "Construction of voices that cry out nostalgia and fire.",
+      "The scale that sounds like truth from other continents.",
+      "Exoticism, tension, the vision of elsewhere.",
+      "Eight notes with an unsettling leap that seduces.",
+      "The scale of aware adventure, the one where you love danger."
+    ],
+    "m.mel": [
+      "The fluid scale, Stella By Starlight from night sky.",
+      "The model of constructed ambiguity, melodic minor.",
+      "Ascends like a voice singing toward the sky.",
+      "Construction of voices that create an exit.",
+      "The scale that sounds like an upward story.",
+      "Fluidity, restored hope, the vision that knows how to fly.",
+      "Eight notes that rise freeing themselves from shadow.",
+      "The scale of becoming, the one where pain heals."
+    ],
+    "Dor": [
+      "The scale of the medieval square, Scarborough Fair in autumn.",
+      "The model of refined folk, Dorian.",
+      "Ascends like Miles Davis in So What, contemplation and power.",
+      "Construction of voices that build a road.",
+      "The scale that sounds like a refound tradition.",
+      "Balance, mild power, the vision of the safe path.",
+      "Eight notes that dance between major and minor.",
+      "The scale of folk wisdom, the one where you feel at home."
+    ],
+    "Fri": [
+      "The scale of the desert, White Rabbit by Jefferson Airplane falling.",
+      "The model of otherness, Phrygian.",
+      "Ascends like an esoteric invocation.",
+      "Construction of voices that invoke the unsaid.",
+      "The scale that sounds like a fascinating curse.",
+      "Strangeness, dark splendor, the vision of the impossible.",
+      "Eight notes that build a portal.",
+      "The scale of leaving the world, the one where you'll feel the magic."
+    ],
+    "Lid": [
+      "The scale of bright cartoon, The Simpsons laughing.",
+      "The model of cultured innocence, Lydian.",
+      "Ascends like Dreams by Fleetwood Mac, aware lightness.",
+      "Construction of voices that dream awake.",
+      "The scale that sounds like a fairy tale for adults.",
+      "Sweetness with color, known innocence, the vision of play.",
+      "Eight notes that gleam with a childlike light.",
+      "The scale of gentle beauty, the one where you relax."
+    ],
+    "Mix": [
+      "The scale of the party, Norwegian Wood by The Beatles at sunset.",
+      "The model of joyful equilibrium, Mixolydian.",
+      "Ascends like Sweet Home Alabama, sense of place refound.",
+      "Construction of voices that sing a celebration.",
+      "The scale that sounds like the truth of drinking together.",
+      "Joy with a shade, aware celebration, the vision of gathering.",
+      "Eight notes that dance around the fire.",
+      "The scale of aware joy, the one where you love life."
+    ],
+    "Loc": [
+      "The scale of unease, YYZ by Rush in spatial tension.",
+      "The model of destabilization, Locrian.",
+      "Ascends like Dust To Dust, toward nothingness.",
+      "Construction of voices that whisper non-equilibrium.",
+      "The scale that sounds like the truth of erosion.",
+      "Instability, aware imbalance, the vision of falling.",
+      "Eight notes that build a vortex.",
+      "The scale of aware emptiness, the one where you'll feel naked truth."
+    ],
+    "Pent": [
+      "The simple scale, Amazing Grace like prayer.",
+      "The model of essentiality, major pentatonic.",
+      "Ascends like My Girl by The Temptations, simplicity that flies.",
+      "Construction of voices that sing the essence.",
+      "The scale that sounds like primitive truth.",
+      "Simplicity, clarity, the vision of the possible with little.",
+      "Five notes that say everything.",
+      "The scale of simple wonder, the one where the essential suffices."
+    ],
+    "PentM": [
+      "The scale of rock, Stairway to Heaven riff by Led Zeppelin that climbs.",
+      "The model of collected power, minor pentatonic.",
+      "Ascends like a pagan prayer.",
+      "Construction of voices that cry out the naked heart.",
+      "The scale that sounds like the truth of restrained power.",
+      "Power, contemplative strength, the vision of possible intensity.",
+      "Five notes that build a cathedral.",
+      "The scale of deep wonder, the one where you'll feel power."
+    ],
+    "Blues": [
+      "The scale of aware pain, The Thrill Is Gone by B.B. King.",
+      "The model of pain that sings, Blues.",
+      "Ascends like a song of the condemned.",
+      "Construction of voices that confess the pain.",
+      "The scale that sounds like the truth of loss.",
+      "Pain, beauty in ruin, the vision of pain-sung healing.",
+      "Eight notes that tell an entire life.",
+      "The scale of redemption through pain, the one where the soul sings."
+    ]
+  },
+  "chords": {
+    "M": [
+      "The chord of light, the big major smile.",
+      "Three notes that celebrate certainty.",
+      "The trinity of joy, the foundation of happiness.",
+      "Sounds like the sun, like an obvious truth.",
+      "The chord that removes doubt, pure richness.",
+      "Stability that holds no grudge, luminous certainty.",
+      "A cathedral of certainty built in three notes.",
+      "The complete smile of sonic beauty."
+    ],
+    "m": [
+      "The chord of aware shadow, the big minor breath.",
+      "Three notes that confess depth.",
+      "The trinity of melancholy, the foundation of introspection.",
+      "Sounds like the moon, like a submerged truth.",
+      "The chord that contains doubt, pure beauty.",
+      "Stability that knows how to suffer, dark certainty.",
+      "A cathedral of reflection built in three notes.",
+      "The deep sigh of sonic beauty."
+    ],
+    "dim": [
+      "The chord of discomfort, the tremolo of destabilization.",
+      "Three notes that gently repel each other.",
+      "The trinity of tension, the foundation of anxiety.",
+      "Sounds like cold wind, like palpable uncertainty.",
+      "The chord that indecides, strange and fascinating.",
+      "Instability that fascinates, lost certainty.",
+      "A cathedral of precarity built in three notes.",
+      "The shiver of sonic uncertainty."
+    ],
+    "aug": [
+      "The chord of extravagance, the amplified cry.",
+      "Three notes that push toward the unknown.",
+      "The trinity of height, the foundation of ecstasy.",
+      "Sounds like excess, like an inflated truth.",
+      "The chord that overflows, strange and luxurious.",
+      "Luxurious instability, dilated certainty.",
+      "A cathedral of excess built in three notes.",
+      "The splendid effort of the chord that wanted to fly."
+    ],
+    "Maj7": [
+      "The chord of cultured tenderness, the major that desires.",
+      "Four notes of sophisticated light.",
+      "The big chord of maturity, beauty without innocence.",
+      "Sounds like the evening that knows sunset.",
+      "The chord that knows, aware richness.",
+      "Stability that still desires, certainty that ponders.",
+      "A cathedral of sophisticated serenity built in four notes.",
+      "The chord that knows that tomorrow will be okay."
+    ],
+    "m7": [
+      "The chord of suffering that dances, the minor that knows how to dance.",
+      "Four notes of dancing shadow.",
+      "The big chord of melancholy that laughs, beauty that suffers.",
+      "Sounds like the evening that tells sad stories.",
+      "The chord that suffers and seduces, dark richness.",
+      "Fascinating instability, certainty that wavers.",
+      "A cathedral of jazzy sadness built in four notes.",
+      "The chord that knows that tomorrow will be difficult again."
+    ],
+    "7": [
+      "The chord of constructive conflict, the dominant that provokes.",
+      "Four notes of resolving tension.",
+      "The big chord of desire, beauty that wants home.",
+      "Sounds like the question that hurries for an answer.",
+      "The chord that pushes, anxious richness.",
+      "Hasty instability, certainty that insists.",
+      "A cathedral of expectation built in four notes.",
+      "The chord that knows it must resolve now."
+    ],
+    "m7b5": [
+      "The chord of cultured fragility, the half-diminished that whispers.",
+      "Four notes of sophisticated precarity.",
+      "The big chord of incompleteness, uncertain beauty.",
+      "Sounds like the question that doesn't want an answer.",
+      "The chord that hesitates, vacillating richness.",
+      "Contemplative instability, certainty that doesn't dare.",
+      "A cathedral of fragility built in four notes.",
+      "The chord that knows it might end badly, but continues."
+    ],
+    "dim7": [
+      "The chord of infinite falling, the seventh diminished that circles.",
+      "Four notes of symmetric precarity.",
+      "The big chord of absolute tension, beauty that frightens.",
+      "Sounds like the moment before loss.",
+      "The chord that always returns, cyclic richness.",
+      "Specular instability, certainty that begins again.",
+      "A cathedral of fear built in four notes.",
+      "The chord that knows it will return the next semitone."
+    ],
+    "mMaj7": [
+      "The chord of cultured contradiction, the minor that wants major.",
+      "Four notes of sophisticated paradox.",
+      "The big chord of inner struggle, lacerated beauty.",
+      "Sounds like pain that knows joy.",
+      "The chord that suffers and hopes, tormented richness.",
+      "Aware instability, certainty that doubts.",
+      "A cathedral of contradiction built in four notes.",
+      "The chord that knows it can contain both universes."
+    ]
+  }
+}

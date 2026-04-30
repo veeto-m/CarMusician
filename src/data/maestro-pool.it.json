@@ -1,0 +1,645 @@
+{
+  "locale": "it",
+  "intervals": {
+    "1": {
+      "ascending": [
+        "Lo squalo di John Williams, quello squarcio inquietante.",
+        "Un respiro fermo, niente di più.",
+        "Il primo passo, tutto in un'altra nota.",
+        "Nota pura, senza movimento.",
+        "Una certezza immobile.",
+        "Il punto di partenza, identico a se stesso.",
+        "Una conferma: sei ancora qui.",
+        "Solido, statico, la nota che abbraccia se stessa."
+      ],
+      "descending": [
+        "Per Elisa di Beethoven, quella discesa dolce.",
+        "Una nota che torna a casa.",
+        "Il richiamo verso il basso, specchio di sé.",
+        "Niente cade, niente sale.",
+        "La stabilità del suono che non si muove.",
+        "Una linea piatta, il silenzio del movimento.",
+        "Freddo e puro, senza scelta.",
+        "Il tappeto immutabile sotto i tuoi piedi."
+      ],
+      "harmonic": [
+        "Due voci della stessa anima.",
+        "Unisono assoluto, una sola voce.",
+        "L'eco perfetto di sé stesso.",
+        "Nessuno spazio fra loro, solo identità.",
+        "Il matrimonio totale del suono.",
+        "Due diventano uno, senza compromessi.",
+        "La raddoppiata più vera che esista.",
+        "Specchio infranto? No, specchio perfetto."
+      ]
+    },
+    "2m": {
+      "ascending": [
+        "Un mezzo passo, il più stretto abbraccio.",
+        "Tensione muta, quella che graffia.",
+        "Fra Martino ha un cugino disarmonico.",
+        "Quasi un sussurro, quasi un grido.",
+        "Due note incollate, a malincuore.",
+        "Lo spazio minimo dell'inquietudine.",
+        "Un'unghia graffiaccia la tela.",
+        "La salita claustrofobica, la più vicina."
+      ],
+      "descending": [
+        "Una discesa strettissima, quasi immobile.",
+        "Il passo più breve verso il basso.",
+        "Una contrazione del suono su se stesso.",
+        "Lo spazio più intimo fra due note.",
+        "Un sussurro che cade di appena un niente.",
+        "La distanza del respiro trattenuto.",
+        "Compressione sonora, non espansione.",
+        "Un metro di seta fra due mondi."
+      ],
+      "harmonic": [
+        "Dissonanza acida, quella che tira.",
+        "Due note nemiche nella stessa stanza.",
+        "Attrito puro, frizione sonora.",
+        "Lo scontro minimo, il malessere essenziale.",
+        "Vicinanza che scotta, tensione palpabile.",
+        "Due voci che si respingono appena.",
+        "L'urto dolente del mezzo passo.",
+        "Disagio compresso in pochi millimetri di suono."
+      ]
+    },
+    "2M": {
+      "ascending": [
+        "Fra Martino campanaro, il classico italiano.",
+        "Un passo intero, il movimento naturale della voce.",
+        "Salita gentile, quella dei bambini.",
+        "La seconda amichevole, quella che fa respirare.",
+        "Un tono intero di sollievo.",
+        "Apre lo spazio, respira il suono.",
+        "La salita che tutti ricordano.",
+        "Due note che si incontrano senza fretta."
+      ],
+      "descending": [
+        "Una discesa fluida di un tono intero.",
+        "Lo spazio giusto per una frase comoda.",
+        "Scende naturale, come una scala domestica.",
+        "Una pausa respirabile fra due momenti.",
+        "Il passo che la voce preferisce.",
+        "Movimento verso il basso senza sforzo.",
+        "Dolcezza nella caduta di un tono intero.",
+        "L'intervallo del buonsenso musicale."
+      ],
+      "harmonic": [
+        "Due note che si abbracciano leggere.",
+        "Consonanza morbida e accogliente.",
+        "Insieme senza conflitto, armonia naturale.",
+        "Il suono della pace fra due note.",
+        "Accordo gentile, quello che consola.",
+        "Due voci che camminano insieme.",
+        "Stabilità calda, non fredda.",
+        "L'uno accanto all'altro, senza tensione."
+      ]
+    },
+    "3m": {
+      "ascending": [
+        "Fumo sull'acqua dei Deep Purple, quel riff buio.",
+        "Una terza stretta, il suono melanconico.",
+        "Sale di tre semitoni, la via della tristezza.",
+        "Un salto medio che sa di nostalgia.",
+        "Lo scuro della terza minore, profondo e introverso.",
+        "Verso l'alto, ma con l'aria di piangere.",
+        "La salita che racconta una storia triste.",
+        "Tre semitoni di malinconia pura."
+      ],
+      "descending": [
+        "Hey Jude dei Beatles, quella discesa iconica.",
+        "Scende di una terza minore, il pianto musicale.",
+        "Tre semitoni verso il basso, il lamento.",
+        "Una discesa che sa di addio.",
+        "Lo sguardo basso della terza minore.",
+        "Cade dolcemente, senza speranza.",
+        "Movimento che sussurra rassegnazione.",
+        "Tre semitoni di tenerezza malata."
+      ],
+      "harmonic": [
+        "Il fondamento del minore, quella trinità scura.",
+        "Due note che danzano in ombra.",
+        "Consonanza grave, quella che commuove.",
+        "Accordo che sa di tristezza temperata.",
+        "La base emozionale del minore completo.",
+        "Insieme che canta senza gioia.",
+        "Stabilità malinconica, sicura ma buia.",
+        "Due voci nell'ombra, lealmente tristi."
+      ]
+    },
+    "3M": {
+      "ascending": [
+        "La luminosità della terza maggiore.",
+        "Sale il sole, tre semitoni di luce.",
+        "Il sorriso ascendente dell'intervallo costruttivo.",
+        "Aperto e positivo, il primo movimento del maggiore.",
+        "Salita che canta gioia pura.",
+        "Tre semitoni verso la speranza.",
+        "L'azzurro che sale, chiarezza crescente.",
+        "Il raggio di felicità musicale."
+      ],
+      "descending": [
+        "Discesa soave di una terza maggiore.",
+        "Lo sguardo sereno che scende.",
+        "Tre semitoni di benevolenza.",
+        "Caduta dolce senza perdita d'aria.",
+        "Scende mantenendo il calore.",
+        "La terza maggiore al contrario, mite e serena.",
+        "Movimento discendente che consola.",
+        "Tre semitoni di pace calda."
+      ],
+      "harmonic": [
+        "Il nucleo luminoso di ogni accordo maggiore.",
+        "Due note che si riconoscono amiche.",
+        "La consonanza perfetta del massimale positivo.",
+        "Insieme che esala contentezza.",
+        "L'abbraccio sonoro più naturale.",
+        "Stabilità pura e lieta.",
+        "Due voci in completa armonia.",
+        "La certezza della bellezza condivisa."
+      ]
+    },
+    "4": {
+      "ascending": [
+        "Oh When the Saints, quella trombetta sacra.",
+        "La quarta, il ponte fra i mondi.",
+        "Salita severa, quella della solennità.",
+        "Cinque semitoni di spazialità.",
+        "Verso il cielo con dignità.",
+        "Un balzo che risuona nello spazio.",
+        "Ascesa che costruisce cattedrali.",
+        "Il passaggio sospeso fra due regioni."
+      ],
+      "descending": [
+        "La quarta che scende, il ritorno alla terra.",
+        "Un salto controllato verso il basso.",
+        "Cinque semitoni di rientro malinconico.",
+        "Discesa costruita, non crollata.",
+        "Movimento che mantiene la dignità.",
+        "Scende come una campana che torna.",
+        "Lo spostamento grave della quarta.",
+        "Cinque semitoni verso il fondamento."
+      ],
+      "harmonic": [
+        "L'accordo vuoto, la quarta quint'aria.",
+        "Due note che non si toccano veramente.",
+        "Dissonanza licenziata, ma elegante.",
+        "Insieme sospeso, né accordo né conflitto.",
+        "Lo spazio aperto fra due pilastri.",
+        "Consonanza imperfetta, quella dell'incertezza.",
+        "Due voci che cercano un terzo.",
+        "Instabilità che intrappola lo spirito."
+      ]
+    },
+    "TT": {
+      "ascending": [
+        "Il tritono, il diabolus in musica, salita infernale.",
+        "Sei semitoni di pura alterità.",
+        "Verso l'incomprensibile, il suono rotto.",
+        "L'intervallo che inquieta, senza casa.",
+        "Salita che non sa dove andare.",
+        "L'orrore armonico, il vuoto ascendente.",
+        "Sei semitoni di discordanza totale.",
+        "Verso il baratro, l'intervallo perduto."
+      ],
+      "descending": [
+        "Il tritono discendente, il male al contrario.",
+        "Sei semitoni di caos controllato.",
+        "Scende nel baratro con lo stesso disagio.",
+        "La caduta impossibile, niente come prima.",
+        "Dissonanza senza redenzione, verso il basso.",
+        "Discesa che non ha memoria di casa.",
+        "Sei semitoni di confusione pura.",
+        "Verso le profondità, senza ritorno."
+      ],
+      "harmonic": [
+        "Il disaccordo supremo, la disarmonia totale.",
+        "Due note che si rifiutano reciprocamente.",
+        "Conflitto assoluto, senza compromessi.",
+        "Dissonanza che strappa, che lacera.",
+        "Insieme che scuote le fondamenta.",
+        "Due voci in guerra dichiarata.",
+        "Instabilità massima, il caos certificato.",
+        "L'inimicizia sonora più profonda."
+      ]
+    },
+    "5": {
+      "ascending": [
+        "Marcia nuziale di Wagner, quella maestosa salita.",
+        "La quinta giusta, il suono più puro della natura.",
+        "Sette semitoni di perfezione risonante.",
+        "Sale con la forza di una quinta giusta.",
+        "Verso l'alto con certezza ineluttabile.",
+        "L'intervallo del potere quieto.",
+        "Salita che suona come casa.",
+        "Sette semitoni della gloria sonora."
+      ],
+      "descending": [
+        "La quinta giusta che scende, discesa nobile.",
+        "Sette semitoni di ritorno sereno.",
+        "Cade con la dignità della perfezione.",
+        "Scende naturale, come acqua in pendenza.",
+        "Movimento che mantiene la forza.",
+        "Discesa della risonanza pura.",
+        "Sette semitoni verso il fondamento solido.",
+        "Il ritorno alla casa della quinta."
+      ],
+      "harmonic": [
+        "La quinta pura, il suono della natura stessa.",
+        "Due note che vibrano nello stesso universo.",
+        "Consonanza perfetta, quella senza riserve.",
+        "Accordo vuoto ma perfetto, la quinta giusta.",
+        "Insieme che suona come il cielo.",
+        "Due voci che risuonano nell'armonia.",
+        "Stabilità assoluta, quella dell'origine.",
+        "La certezza del suono infinito."
+      ]
+    },
+    "6m": {
+      "ascending": [
+        "La sesta minore, quella matura e intensa.",
+        "Otto semitoni di ampiezza nostalgica.",
+        "Sale senza precipitazione, profondità e calore.",
+        "Verso l'alto con la dolcezza della memoria.",
+        "L'intervallo dell'esperienza accumulata.",
+        "Salita che racconta una vita intera.",
+        "Otto semitoni di bellezza malinconica.",
+        "Verso un orizzonte intimo e lontano."
+      ],
+      "descending": [
+        "La sesta minore che scende, ritorno contemplativo.",
+        "Otto semitoni verso il ricordo.",
+        "Caduta gentile della nostalgia.",
+        "Scende come una dichiarazione matura.",
+        "Movimento che sa di esperienza.",
+        "Discesa della sesta minore, profonda e calda.",
+        "Otto semitoni verso la riflessione.",
+        "Il ritorno alla tenerezza."
+      ],
+      "harmonic": [
+        "Due note che si riconoscono dopo tempo.",
+        "Consonanza ricca, quella della complessità.",
+        "Insieme che suona consapevole e colto.",
+        "Accordo che contiene una storia.",
+        "Due voci mature, in dialogo profondo.",
+        "Stabilità che ha già patito.",
+        "Bellezza che conosce la sofferenza.",
+        "L'intimità del suono colto."
+      ]
+    },
+    "6M": {
+      "ascending": [
+        "La sesta maggiore, quella che vola leggera.",
+        "Nove semitoni di gioia ampia.",
+        "Sale verso il cielo con fiducia.",
+        "Verso l'alto, spazioso e luminoso.",
+        "L'intervallo dell'ottimismo costruito.",
+        "Salita che abbraccia tutto lo spazio.",
+        "Nove semitoni di beatitudine.",
+        "Verso l'infinito, sereni e consapevoli."
+      ],
+      "descending": [
+        "La sesta maggiore che scende, discesa dolce e larga.",
+        "Nove semitoni di caduta amorevole.",
+        "Cade mantenendo la bellezza del volo.",
+        "Scende spazioso, senza fretta.",
+        "Movimento che sa di gratitudine.",
+        "Discesa della sesta maggiore, serena e piena.",
+        "Nove semitoni verso il riposo felice.",
+        "Il ritorno all'accoglienza."
+      ],
+      "harmonic": [
+        "Due note che si guardano con affetto.",
+        "Consonanza splendida, quella della generosità.",
+        "Insieme che irradia calore.",
+        "Accordo che sa di serenità conquistata.",
+        "Due voci in celebrazione reciproca.",
+        "Stabilità bella, quella che eleva.",
+        "La gioia in forma puramente sonora.",
+        "L'unione lieta e consapevole."
+      ]
+    },
+    "7m": {
+      "ascending": [
+        "Somewhere da West Side Story, la salita del sogno.",
+        "Dieci semitoni verso l'irreale.",
+        "Sale con la dolcezza della settima minore.",
+        "Verso l'alto, il dominio dell'incompiuto.",
+        "L'intervallo che promette e non consegna.",
+        "Salita ricca di tensione emotiva.",
+        "Dieci semitoni verso il quasi-giusto.",
+        "Verso il cielo mancato, il sogno incompiuto."
+      ],
+      "descending": [
+        "La settima minore che scende, il lamento raffinato.",
+        "Dieci semitoni verso la rassegnazione.",
+        "Caduta del quasi-giusto, con dolcezza.",
+        "Scende ricco, ma incompiuto.",
+        "Movimento che sa di desiderio repressionato.",
+        "Discesa della settima minore, amara e colta.",
+        "Dieci semitoni verso la pace incerta.",
+        "Il ritorno al rimpianto sonoro."
+      ],
+      "harmonic": [
+        "Due note che quasi si riconciliano.",
+        "Consonanza imperfetta, quella del dubbio.",
+        "Insieme ricco ma ansioso.",
+        "Accordo che desidera risolvere.",
+        "Due voci in dialogo incompleto.",
+        "Instabilità che affascina.",
+        "La bellezza del non-detto.",
+        "La tenerezza della mancanza."
+      ]
+    },
+    "7M": {
+      "ascending": [
+        "Guerre Stellari di John Williams, la settima maggiore siderale.",
+        "Undici semitoni verso la completezza.",
+        "Sale al limite, quasi l'ottava.",
+        "Verso l'alto, il massimo senza superare.",
+        "L'intervallo della quasi-perfezione.",
+        "Salita che raggiunge il cielo.",
+        "Undici semitoni di illuminazione.",
+        "Verso il confine del possibile."
+      ],
+      "descending": [
+        "La settima maggiore che scende, discesa regale.",
+        "Undici semitoni verso il riposo regale.",
+        "Caduta dalla perfezione con eleganza.",
+        "Scende dal quasi-ottava, sereno.",
+        "Movimento che ha la dignità del completamento.",
+        "Discesa della settima maggiore, luminosa.",
+        "Undici semitoni verso la risoluzione.",
+        "Il ritorno da un quasi-infinito."
+      ],
+      "harmonic": [
+        "Due note che quasi si fregano nel cielo.",
+        "Consonanza quasi-perfetta, quella dell'ascensione.",
+        "Insieme che suggerisce completamento.",
+        "Accordo che desidera l'ottava.",
+        "Due voci al limite della percezione.",
+        "Instabilità che tira verso l'alto.",
+        "La bellezza della frontiera.",
+        "La risolutezza quasi raggiunta."
+      ]
+    },
+    "8": {
+      "ascending": [
+        "Over the Rainbow dal Mago di Oz, l'ottava che libera.",
+        "Dodici semitoni, torna il silenzio con una voce nuova.",
+        "Sale al vertice del ciclo, ritorno rinato.",
+        "Verso l'alto, in un'altra dimensione dello stesso suono.",
+        "L'intervallo del ritorno trasformato.",
+        "Salita che completa il cerchio.",
+        "Dodici semitoni verso la resurrezione.",
+        "Verso il cielo, con tutto ciò che siamo."
+      ],
+      "descending": [
+        "L'ottava che scende, ritorno al compianto e alla memoria.",
+        "Dodici semitoni verso la rassegnazione consapevole.",
+        "Cade nel complimento del cerchio.",
+        "Scende con la certezza della conclusione.",
+        "Movimento che chiude e apre insieme.",
+        "Discesa dell'ottava, il ritorno a casa.",
+        "Dodici semitoni verso la riflessione conclusiva.",
+        "Il ritorno all'inizio, ma non al principio."
+      ],
+      "harmonic": [
+        "Due voci della stessa anima, separate dall'universo.",
+        "Consonanza perfetta ripetuta, l'unità raddoppiata.",
+        "Insieme che canta in due ottave della stessa verità.",
+        "Accordo che è pura risonanza, il suono di Dio.",
+        "Due voci identiche, eppure differenti.",
+        "Stabilità della infinita replicazione.",
+        "La bellezza della simmetria oltre lo spazio.",
+        "La certezza eterna del suono rinato."
+      ]
+    }
+  },
+  "scales": {
+    "Mag": [
+      "La scala del sole, Happy Birthday e gioia pura.",
+      "Il modello di ogni luce, la scala maggiore.",
+      "Ascende come l'Inno alla Gioia, aperto e trionfante.",
+      "Costruzione di voci che gridano felicità.",
+      "La scala che suona come la verità diafana.",
+      "Luminosità, spazialità, la visione naturale.",
+      "Otto note che ballano nella consapevolezza positiva.",
+      "La scala dell'accettazione, quella dove vivi bene."
+    ],
+    "min": [
+      "La scala della ombra consapevole, Bella Ciao all'alba.",
+      "Il modello del non-detto, il minore naturale.",
+      "Ascende come Nothing Else Matters, profondità introspettiva.",
+      "Costruzione di voci che sussurrano introspezione.",
+      "La scala che suona come la verità sotterranea.",
+      "Profondità, intimità, la visione del cuore.",
+      "Otto note che camminano nella saggia malinconia.",
+      "La scala dell'accettazione del dolore, quella dove guarisci."
+    ],
+    "m.arm": [
+      "La scala esotica, Hava Nagila dalla festa senza fine.",
+      "Il modello dello sguardo lontano, il minore armonico.",
+      "Ascende come Misirlou, con il fuoco dei mondi lontani.",
+      "Costruzione di voci che gridano nostalgia e fuoco.",
+      "La scala che suona come la verità da altri continenti.",
+      "Esotismo, tensione, la visione dell'altrove.",
+      "Otto note con un salto inquietante che seduce.",
+      "La scala dell'avventura consapevole, quella dove ami il pericolo."
+    ],
+    "m.mel": [
+      "La scala fluida, Stella By Starlight dal cielo notturno.",
+      "Il modello dell'ambiguità costruita, il minore melodico.",
+      "Ascende come una voce che canta verso il cielo.",
+      "Costruzione di voci che creano una via d'uscita.",
+      "La scala che suona come una storia in salita.",
+      "Fluidità, speranza restituita, la visione che sa volare.",
+      "Otto note che salgono liberandosi dall'ombra.",
+      "La scala del divenire, quella dove il dolore guarisce."
+    ],
+    "Dor": [
+      "La scala della piazza medioevale, Scarborough Fair in autunno.",
+      "Il modello del folk raffinato, il Dorico.",
+      "Ascende come Miles Davis in So What, contemplazione e forza.",
+      "Costruzione di voci che costruiscono una strada.",
+      "La scala che suona come una tradizione ritrovata.",
+      "Equilibrio, forza mite, la visione del cammino sicuro.",
+      "Otto note che danzano fra il maggiore e il minore.",
+      "La scala della saggezza popolare, quella dove ti senti a casa."
+    ],
+    "Fri": [
+      "La scala del deserto, White Rabbit dei Jefferson Airplane in caduta.",
+      "Il modello dell'alterità, il Frigio.",
+      "Ascende come una invocazione esoterica.",
+      "Costruzione di voci che invocano il non-detto.",
+      "La scala che suona come una maledizione affascinante.",
+      "Estraneità, cupo splendore, la visione dell'impossibile.",
+      "Otto note che costruiscono un portale.",
+      "La scala dell'uscita dal mondo, quella dove sentirai la magia."
+    ],
+    "Lid": [
+      "La scala del cartoon luminoso, The Simpsons che ridono.",
+      "Il modello dell'innocenza colta, il Lidio.",
+      "Ascende come Dreams dei Fleetwood Mac, leggerezza consapevole.",
+      "Costruzione di voci che sognano da svegli.",
+      "La scala che suona come una fiaba per adulti.",
+      "Dolcezza con colore, innocenza conosciuta, la visione del gioco.",
+      "Otto note che brillano di una luce bambina.",
+      "La scala della bellezza gentile, quella dove ti rilassi."
+    ],
+    "Mix": [
+      "La scala della festa, Norwegian Wood dei Beatles al tramonto.",
+      "Il modello dell'equilibrio gaudente, il Missolidio.",
+      "Ascende come Sweet Home Alabama, senso di luogo ritrovato.",
+      "Costruzione di voci che cantano una celebrazione.",
+      "La scala che suona come la verità del bere insieme.",
+      "Gioia con una sfumatura, festa consapevole, la visione del convivio.",
+      "Otto note che danzano intorno al fuoco.",
+      "La scala della gioia consapevole, quella dove ami la vita."
+    ],
+    "Loc": [
+      "La scala dell'inquietudine, YYZ dei Rush in tensione spaziale.",
+      "Il modello della destabilizzazione, il Locrio.",
+      "Ascende come Dust To Dust, verso il nulla.",
+      "Costruzione di voci che sussurrano il non-equilibrio.",
+      "La scala che suona come la verità dell'erosione.",
+      "Instabilità, squilibrio consapevole, la visione della caduta.",
+      "Otto note che costruiscono un vortice.",
+      "La scala del vuoto consapevole, quella dove sentirai la verità nuda."
+    ],
+    "Pent": [
+      "La scala semplice, Amazing Grace come preghiera.",
+      "Il modello della essenzialità, la pentatonica maggiore.",
+      "Ascende come My Girl dei Temptations, semplicità che vola.",
+      "Costruzione di voci che cantano la essenza.",
+      "La scala che suona come la verità primitiva.",
+      "Semplicità, chiarezza, la visione del possibile con poco.",
+      "Cinque note che dicono tutto.",
+      "La scala della meraviglia semplice, quella dove basta l'essenziale."
+    ],
+    "PentM": [
+      "La scala della roccia, Stairway to Heaven riff dei Led Zeppelin che sale.",
+      "Il modello della potenza raccolta, la pentatonica minore.",
+      "Ascende come una preghiera pagana.",
+      "Costruzione di voci che gridano il cuore nudo.",
+      "La scala che suona come la verità della forza trattenuta.",
+      "Potenza, forza contemplativa, la visione del possibile intenso.",
+      "Cinque note che costruiscono una cattedrale.",
+      "La scala della meraviglia profonda, quella dove sentirai il potere."
+    ],
+    "Blues": [
+      "La scala del dolore consapevole, The Thrill Is Gone di B.B. King.",
+      "Il modello della sofferenza che canta, il Blues.",
+      "Ascende come un canto del condannato.",
+      "Costruzione di voci che confessano il dolore.",
+      "La scala che suona come la verità della perdita.",
+      "Dolore, bellezza nella rovina, la visione della guarigione cantata.",
+      "Otto note che raccontano una vita intera.",
+      "La scala della redenzione nel dolore, quella dove l'anima canta."
+    ]
+  },
+  "chords": {
+    "M": [
+      "L'accordo della luce, il grande sorriso maggiore.",
+      "Tre note che celebrano la certezza.",
+      "La trinità della gioia, il fondamento della felicità.",
+      "Suona come il sole, come una verità ovvia.",
+      "L'accordo che toglie i dubbi, ricchezza pura.",
+      "Stabilità che non tiene rancore, certezza luminosa.",
+      "Una cattedrale di certezza costruita in tre note.",
+      "Il sorriso completo della bellezza sonora."
+    ],
+    "m": [
+      "L'accordo dell'ombra consapevole, il grande respiro minore.",
+      "Tre note che confessano la profondità.",
+      "La trinità della malinconia, il fondamento della introspezione.",
+      "Suona come la luna, come una verità sommersa.",
+      "L'accordo che contiene i dubbi, bellezza pura.",
+      "Stabilità che sa soffrire, certezza oscura.",
+      "Una cattedrale di riflessione costruita in tre note.",
+      "Il sospiro profondo della bellezza sonora."
+    ],
+    "dim": [
+      "L'accordo del disagio, il tremolo della destabilizzazione.",
+      "Tre note che si respingono dolcemente.",
+      "La trinità della tensione, il fondamento dell'ansia.",
+      "Suona come il vento freddo, come un'incertezza palpabile.",
+      "L'accordo che indecide, strano e affascinante.",
+      "Instabilità che affascina, certezza perduta.",
+      "Una cattedrale di precarietà costruita in tre note.",
+      "Il brivido dell'incertezza sonora."
+    ],
+    "aug": [
+      "L'accordo della stravaganza, il grido amplificato.",
+      "Tre note che si spingono verso l'ignoto.",
+      "La trinità della altezza, il fondamento dell'estasi.",
+      "Suona come l'eccesso, come una verità gonfiata.",
+      "L'accordo che trabocca, strano e lussuoso.",
+      "Instabilità lussuosa, certezza dilatata.",
+      "Una cattedrale di eccesso costruita in tre note.",
+      "Lo sforzo splendido dell'accordo che voglia volare."
+    ],
+    "Maj7": [
+      "L'accordo della tenerezza colta, il maggiore che desidera.",
+      "Quattro note di luce sofisticata.",
+      "Il grande accordo della maturità, bellezza senza innocenza.",
+      "Suona come la serata che conosce il tramonto.",
+      "L'accordo che sa, ricchezza consapevole.",
+      "Stabilità che desiderio ancora, certezza che rumina.",
+      "Una cattedrale di serenità sofisticata costruita in quattro note.",
+      "L'accordo che sa che domani andrà tutto bene."
+    ],
+    "m7": [
+      "L'accordo della sofferenza che danza, il minore che sa ballare.",
+      "Quattro note di ombra danzante.",
+      "Il grande accordo della malinconia che ride, bellezza che soffrisce.",
+      "Suona come la serata che racconta storie tristi.",
+      "L'accordo che sa soffrire e sedurre, ricchezza scura.",
+      "Instabilità affascinante, certezza che ondeggia.",
+      "Una cattedrale di tristezza jazzistica costruita in quattro note.",
+      "L'accordo che sa che domani sarà ancora difficile."
+    ],
+    "7": [
+      "L'accordo del conflitto costruttivo, il dominante che provoca.",
+      "Quattro note di tensione risolutiva.",
+      "Il grande accordo del desiderio, bellezza che vuole casa.",
+      "Suona come la domanda che ha fretta di risposta.",
+      "L'accordo che spinge, ricchezza ansiosa.",
+      "Instabilità affrettata, certezza che insiste.",
+      "Una cattedrale di aspettativa costruita in quattro note.",
+      "L'accordo che sa che deve risolversi ora."
+    ],
+    "m7b5": [
+      "L'accordo della fragilità colto, il semidiminuito che sussurra.",
+      "Quattro note di precarietà sofisticata.",
+      "Il grande accordo dell'incompiutezza, bellezza incerta.",
+      "Suona come la domanda che non vuole risposta.",
+      "L'accordo che esita, ricchezza vacillante.",
+      "Instabilità contemplativa, certezza che non osa.",
+      "Una cattedrale di fragilità costruita in quattro note.",
+      "L'accordo che sa che potrebbe finire male, ma continua."
+    ],
+    "dim7": [
+      "L'accordo dell'infinita caduta, il diminuito settima che gira.",
+      "Quattro note di precarietà simmetrica.",
+      "Il grande accordo dell'assoluta tensione, bellezza che spaventa.",
+      "Suona come il momento prima della perdita.",
+      "L'accordo che torna sempre, ricchezza ciclica.",
+      "Instabilità speculare, certezza che ricomincia.",
+      "Una cattedrale di paura costruita in quattro note.",
+      "L'accordo che sa che tornerà il prossimo semitono."
+    ],
+    "mMaj7": [
+      "L'accordo della contraddizione colto, il minore che vuole il maggiore.",
+      "Quattro note di paradosso sofisticato.",
+      "Il grande accordo della lotta interiore, bellezza lacerata.",
+      "Suona come il dolore che conosce la gioia.",
+      "L'accordo che sa soffrire e sperare, ricchezza tormentata.",
+      "Instabilità consapevole, certezza che dubbita.",
+      "Una cattedrale di contraddizione costruita in quattro note.",
+      "L'accordo che sa che può contenere entrambi gli universi."
+    ]
+  }
+}

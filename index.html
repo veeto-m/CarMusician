@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#0a0a0f">
+<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+<link rel="icon" href="./icon-192.png" type="image/png">
+<title>♫ CarMusician</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300..800&family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0..200" rel="stylesheet">
+</head>
+<body>
+<div id="debug-log" class="debug-log"></div>
+<button class="debug-toggle" id="debug-toggle" data-action="toggleDebug">debug</button>
+<div id="voice-badge" class="voice-badge" style="display:none;"><div id="voice-dot" class="voice-dot"></div><span id="voice-text" class="voice-text" data-i18n="voiceBadge.listening">LISTENING</span></div>
+
+<!-- ==================== WELCOME (voice-first) ==================== -->
+<div id="welcome" class="screen active">
+  <div class="welcome-screen">
+    <div class="home-title" style="font-size:36px;">car<span class="accent">musician</span></div>
+    <div style="color:var(--textDim);font-size:14px;letter-spacing:0.06em;margin-top:-4px;margin-bottom:8px;" data-i18n="welcome.claim">train your ear hands-free</div>
+    <div class="welcome-circle amber-disc pulse-amber" id="welcome-circle" data-action="startApp"><span class="msym" style="font-size:56px;">play_arrow</span></div>
+    <div style="color:var(--textDim);font-size:13px;line-height:1.8;"><span data-i18n="welcome.tapToStartLine1">Tap to start.</span><br><span data-i18n="welcome.tapToStartLine2">The app will launch in audio mode.</span></div>
+    <div id="welcome-version" style="color:var(--textMuted);font-family:'Roboto Mono',monospace;font-size:10px;letter-spacing:0.2em;margin-top:12px;"></div>
+  </div>
+</div>
+
+<!-- ==================== HOME ==================== -->
+<div id="home" class="screen" style="align-items:center;padding:24px 20px;gap:24px;">
+  <div style="text-align:center;margin-top:12px;">
+    <div class="home-title">car<span class="accent">musician</span></div>
+    <div class="home-sub" data-i18n="home.subtitle">train your ear hands-free</div>
+    <div id="home-version" style="color:var(--textMuted);font-family:'Roboto Mono',monospace;font-size:9px;letter-spacing:0.18em;margin-top:6px;"></div>
+  </div>
+  <div style="width:100%;max-width:380px;">
+    <div class="section-label" data-i18n="home.section.quiz">Quiz</div>
+    <button class="card" data-action="openQuiz" data-mode="intervals"><span class="card-icon"><span class="msym">graphic_eq</span></span><div><div class="card-label" data-i18n="home.card.intervalsLabel">Interval Quiz</div><div class="card-desc" data-i18n="home.card.intervalsDesc">Recognize the distance between two notes</div></div></button>
+    <button class="card" data-action="openQuiz" data-mode="scales"><span class="card-icon"><span class="msym">music_note</span></span><div><div class="card-label" data-i18n="home.card.scalesLabel">Scale Quiz</div><div class="card-desc" data-i18n="home.card.scalesDesc">Identify the mode or the scale</div></div></button>
+    <button class="card" data-action="openQuiz" data-mode="chords"><span class="card-icon"><span class="msym">piano</span></span><div><div class="card-label" data-i18n="home.card.chordsLabel">Chord Quiz</div><div class="card-desc" data-i18n="home.card.chordsDesc">Triads and tetrads: name the chord</div></div></button>
+  </div>
+  <div style="width:100%;max-width:380px;">
+    <div class="section-label" data-i18n="home.section.listening">Listening</div>
+    <button class="card auto-card" data-action="showScreen" data-screen="auto-training"><span class="card-icon"><span class="msym">directions_car</span></span><div><div class="card-label" style="color:var(--auto);" data-i18n="home.card.autoLabel">Auto Training</div><div class="card-desc" style="line-height:1.5;" data-i18n="home.card.autoDesc" data-i18n-html="1">Passive listening: plays + names.<br>Perfect for in-car, hands-free use.</div></div></button>
+  </div>
+  <div style="width:100%;max-width:380px;">
+    <div class="section-label" data-i18n="home.section.reference">Reference</div>
+    <button class="card" data-action="showScreen" data-screen="reference"><span class="card-icon"><span class="msym">menu_book</span></span><div><div class="card-label" data-i18n="home.card.referenceLabel">Scales & Modes</div><div class="card-desc" data-i18n="home.card.referenceDesc">Explore and listen to every scale and mode</div></div></button>
+  </div>
+  <div style="width:100%;max-width:380px;">
+    <div class="section-label" data-i18n="home.section.progress">Progress</div>
+    <button class="card" data-action="openStatsScreen"><span class="card-icon"><span class="msym">bar_chart</span></span><div><div class="card-label" data-i18n="home.card.statsLabel">My statistics</div><div class="card-desc" id="home-stats-summary" data-i18n="home.card.statsEmpty">No sessions yet — start a quiz!</div></div></button>
+  </div>
+  <div style="width:100%;max-width:380px;">
+    <div class="section-label" data-i18n="home.section.settings">Settings</div>
+    <button class="card" data-action="showScreen" data-screen="settings"><span class="card-icon"><span class="msym">settings</span></span><div><div class="card-label" data-i18n="home.card.settingsLabel">Settings</div><div class="card-desc" data-i18n="home.card.settingsDesc">Sound, voice and preferences</div></div></button>
+  </div>
+  <div style="width:100%;max-width:380px;background:var(--card);border:1px solid var(--hairline);border-radius:22px;padding:18px 22px;box-shadow:var(--shadow-deep);">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;"><span class="msym" style="font-size:22px;color:var(--voice);">mic</span><span style="font-size:14px;font-weight:600;color:var(--voice);letter-spacing:-0.01em;" data-i18n="home.voicePanel.title">Hands-free</span></div>
+    <div style="font-size:12px;color:var(--textDim);line-height:1.6;" data-i18n="home.voicePanel.hint">In quizzes, enable the mic to answer by voice. Commands: "replay", "next".</div>
+  </div>
+</div>
+
+<!-- ==================== QUIZ ==================== -->
+<div id="quiz" class="screen">
+  <div class="header">
+    <button class="header-back" data-action="goHome">← menu</button>
+    <div class="header-title" id="quiz-title" data-i18n="quiz.title.fallback">Quiz</div>
+    <button style="color:var(--textDim);font-size:11px;padding:8px;" data-action="toggleHistory">log</button>
+  </div>
+  <div class="stats-bar">
+    <div><div class="stat-val" id="stat-score" style="color:var(--correct);">0/0</div><div class="stat-label" data-i18n="quiz.statLabels.correct">Correct</div></div>
+    <div><div class="stat-val" id="stat-pct" style="color:var(--wrong);">0%</div><div class="stat-label" data-i18n="quiz.statLabels.pct">%</div></div>
+    <div><div class="stat-val" id="stat-streak">0</div><div class="stat-label" data-i18n="quiz.statLabels.streak">Streak</div></div>
+    <div><div class="stat-val" id="stat-best" style="color:var(--textDim);">0</div><div class="stat-label" data-i18n="quiz.statLabels.best">Best</div></div>
+  </div>
+  <div class="diff-row" id="quiz-diff"></div>
+  <div id="custom-scales-panel" style="display:none;flex-wrap:wrap;gap:6px;margin-bottom:10px;padding:10px 2px;"></div>
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+    <button class="mic-btn" id="mic-btn" data-action="toggleVoice"><span class="msym">mic</span></button>
+    <div style="flex:1;font-size:11px;color:var(--textDim);line-height:1.4;" id="mic-label" data-i18n="quiz.micTap">Tap to enable hands-free</div>
+  </div>
+  <div id="voice-advance-row" class="advance-row" style="display:none;">
+    <span style="font-size:11px;color:var(--voice);" data-i18n="quiz.autoAdvance">Auto-advance after answer</span>
+    <button class="toggle-sw on" id="voice-advance-toggle" data-action="toggleAutoAdvance"><div class="toggle-kn"></div></button>
+  </div>
+  <div id="history-panel" class="history-panel" style="display:none;"></div>
+  <div class="center-area">
+    <div class="direction-label" id="quiz-direction"></div>
+    <button class="play-btn" id="quiz-play" data-action="replayQuiz"><span class="msym">play_arrow</span></button>
+    <div class="hint-text" id="quiz-hint" data-i18n="quiz.hint.normal">replay</div>
+    <button id="maestro-stop" data-action="stopSpeaking" style="display:none;align-items:center;gap:6px;padding:8px 14px;border-radius:20px;border:1px solid var(--ai);background:var(--aiGlow);font-size:11px;color:var(--ai);font-weight:600;letter-spacing:1px;" data-i18n="quiz.silenceMaestro">✕ silence maestro</button>
+    <div id="quiz-feedback"></div>
+  </div>
+  <div class="options-grid" id="quiz-options"></div>
+  <button class="next-btn" id="quiz-next" style="display:none;" data-action="nextQuestion" data-i18n="quiz.next.normal">NEXT →</button>
+</div>
+
+<!-- ==================== AUTO TRAINING ==================== -->
+<div id="auto-training" class="screen">
+  <div class="header">
+    <button class="header-back" data-action="stopAutoGoHome">← menu</button>
+    <div class="header-title" data-i18n="auto.title">Auto Training</div>
+    <div style="width:50px;"></div>
+  </div>
+  <div class="diff-row" id="auto-diff"></div>
+  <div class="content-row" id="auto-content-row"></div>
+  <div class="speed-row" id="auto-speed-row"><span class="speed-label" data-i18n="auto.speed.label">Speed:</span></div>
+  <div class="pause-row">
+    <span style="font-size:11px;color:var(--textDim);" data-i18n="auto.pauseLabel">Pause between items</span>
+    <div style="display:flex;align-items:center;gap:8px;">
+      <button class="pause-btn" data-action="changePause" data-delta="-1">−</button>
+      <span class="pause-val" id="pause-val">4s</span>
+      <button class="pause-btn" data-action="changePause" data-delta="1">+</button>
+    </div>
+  </div>
+  <div id="auto-explain-row" class="advance-row" style="background:rgba(116,185,255,0.06);border-color:rgba(116,185,255,0.2);">
+    <span style="font-size:11px;color:var(--ai);" data-i18n="auto.explainLabel">Maestro explanations</span>
+    <button class="toggle-sw on" id="auto-explain-toggle" data-action="toggleAutoExplain" style="background:var(--ai);"><div class="toggle-kn"></div></button>
+  </div>
+  <div class="center-area">
+    <div id="auto-counter" style="font-size:11px;color:var(--textMuted);text-transform:uppercase;letter-spacing:2px;"></div>
+    <button class="play-btn play-btn-big" id="auto-play-btn" data-action="toggleAutoTraining"><span class="msym">play_arrow</span></button>
+    <div><div id="auto-name" class="auto-name"></div><div id="auto-status" class="auto-status"></div></div>
+    <div id="auto-idle-text" style="font-size:12px;color:var(--textDim);line-height:1.8;text-align:center;" data-i18n="auto.idle" data-i18n-html="1">Press play to start.<br>Plays → announces → repeats to reinforce.</div>
+  </div>
+</div>
+
+<!-- ==================== REFERENCE ==================== -->
+<div id="reference" class="screen" style="overflow-y:auto;">
+  <div class="header">
+    <button class="header-back" data-action="goHome">← menu</button>
+    <div class="header-title" data-i18n="reference.title">Scales & Modes</div>
+    <div style="width:50px;"></div>
+  </div>
+  <div id="ref-content"></div>
+</div>
+
+<!-- ==================== SETTINGS ==================== -->
+<div id="settings" class="screen" style="overflow-y:auto;">
+  <div class="header">
+    <button class="header-back" data-action="goHome">&#8592; menu</button>
+    <div class="header-title" data-i18n="settings.title">Settings</div>
+    <div style="width:50px;"></div>
+  </div>
+  <div style="width:100%;max-width:380px;margin:0 auto;">
+    <div class="section-label" data-i18n="settings.themeSection">Theme</div>
+    <div style="background:var(--card);border:1px solid var(--hairline);border-radius:22px;padding:18px 20px;margin-bottom:16px;box-shadow:var(--shadow-deep);">
+      <div style="font-size:13px;font-weight:600;margin-bottom:12px;color:var(--text);" data-i18n="settings.palette">Color palette</div>
+      <div class="theme-swatch" id="theme-swatch">
+        <button data-theme="espresso" class="active" style="background:linear-gradient(135deg,#FF7043,#2c221b);" data-i18n="settings.themeSwatches.espresso" data-i18n-attr="title" title="Espresso — warm amber"></button>
+        <button data-theme="concert" style="background:linear-gradient(135deg,#E8B84A,#2e1820);" data-i18n="settings.themeSwatches.concert" data-i18n-attr="title" title="Concert — gold & oxblood"></button>
+        <button data-theme="jazz" style="background:linear-gradient(135deg,#FF8A7A,#172638);" data-i18n="settings.themeSwatches.jazz" data-i18n-attr="title" title="Jazz Club — coral & navy"></button>
+        <button data-theme="forest" style="background:linear-gradient(135deg,#D4A13A,#1c2a23);" data-i18n="settings.themeSwatches.forest" data-i18n-attr="title" title="Forest — moss & amber"></button>
+        <button data-theme="midnight" style="background:linear-gradient(135deg,#FFCA28,#1a2540);" data-i18n="settings.themeSwatches.midnight" data-i18n-attr="title" title="Midnight — gold & blue"></button>
+        <button data-theme="vinyl" style="background:linear-gradient(135deg,#C75A2A,#ebe3d1);" data-i18n="settings.themeSwatches.vinyl" data-i18n-attr="title" title="Vinyl — daytime cream paper"></button>
+      </div>
+      <div id="theme-name" style="font-family:'Roboto Mono',monospace;font-size:10px;color:var(--textMuted);margin-top:10px;letter-spacing:0.14em;text-transform:uppercase;">espresso · warm amber</div>
+    </div>
+    <div class="section-label" data-i18n="settings.soundSection">Sound</div>
+    <div style="background:var(--card);border:1px solid var(--hairline);border-radius:22px;padding:18px 20px;margin-bottom:16px;box-shadow:var(--shadow-deep);">
+      <div style="font-size:13px;font-weight:600;margin-bottom:12px;color:var(--text);" data-i18n="settings.instrument">Instrument</div>
+      <div style="display:flex;gap:8px;">
+        <button class="diff-btn" id="snd-piano" data-action="setSoundMode" data-sound="piano" data-i18n="settings.piano">Piano</button>
+        <button class="diff-btn" id="snd-synth" data-action="setSoundMode" data-sound="synth" data-i18n="settings.synth">Synth</button>
+      </div>
+      <div id="piano-loading" style="font-size:10px;color:var(--textMuted);margin-top:8px;display:none;" data-i18n="settings.pianoLoading">Loading piano samples...</div>
+    </div>
+    <div class="section-label" data-i18n="settings.voiceSection">Voice</div>
+    <div style="background:var(--card);border:1px solid var(--hairline);border-radius:22px;padding:18px 20px;margin-bottom:16px;box-shadow:var(--shadow-deep);">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
+        <span style="font-size:13px;font-weight:600;color:var(--text);" data-i18n="settings.naturalTTS">Natural TTS (Google)</span>
+        <button class="toggle-sw" id="tts-toggle" data-action="toggleNaturalTTS"><div class="toggle-kn"></div></button>
+      </div>
+      <div style="font-size:11px;color:var(--textDim);line-height:1.5;" data-i18n="settings.naturalTTSDesc" data-i18n-html="1">If on, uses the Google voice (more natural).<br>If off, uses the device voice.</div>
+      <div id="voice-info" style="font-size:10px;color:var(--textMuted);margin-top:8px;"></div>
+    </div>
+    <div class="section-label" data-i18n="settings.languageSection">Language</div>
+    <div style="background:var(--card);border:1px solid var(--hairline);border-radius:22px;padding:18px 20px;margin-bottom:16px;box-shadow:var(--shadow-deep);">
+      <div style="display:flex;gap:8px;">
+        <button class="diff-btn" id="lang-en" data-action="setLanguage" data-locale="en" data-i18n="settings.languageNames.en">English</button>
+        <button class="diff-btn" id="lang-it" data-action="setLanguage" data-locale="it" data-i18n="settings.languageNames.it">Italiano</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== STATS ==================== -->
+<div id="stats" class="screen" style="overflow-y:auto;">
+  <div class="header">
+    <button class="header-back" data-action="showScreen" data-screen="home">← menu</button>
+    <div class="header-title" data-i18n="stats.title">Statistics</div>
+    <div style="width:50px;"></div>
+  </div>
+  <div style="padding:0 20px 32px;">
+    <div class="stats-bar" style="margin-bottom:16px;">
+      <div><div class="stat-val" id="st-total" style="color:var(--accentLight);">0</div><div class="stat-label" data-i18n="stats.labels.total">Answers</div></div>
+      <div><div class="stat-val" id="st-pct" style="color:var(--wrong);">0%</div><div class="stat-label" data-i18n="stats.labels.accuracy">Accuracy</div></div>
+      <div><div class="stat-val" id="st-days" style="color:var(--auto);">0</div><div class="stat-label" data-i18n="stats.labels.days">Days</div></div>
+      <div><div class="stat-val" id="st-streak" style="color:var(--gold);">0</div><div class="stat-label" data-i18n="stats.labels.best">Best</div></div>
+    </div>
+    <div class="section-label" data-i18n="stats.fortnight">Last 2 weeks</div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 10px;margin-bottom:16px;">
+      <div id="stats-chart" class="st-chart"></div>
+      <div style="font-size:9px;color:var(--textMuted);text-align:right;margin-top:4px;" data-i18n="stats.chartHint">height = daily accuracy %</div>
+    </div>
+    <div class="st-tab-row">
+      <button class="st-tab-btn active" id="stab-intervals" data-action="statsTab" data-tab="intervals" data-i18n="stats.tabs.intervals">Intervals</button>
+      <button class="st-tab-btn" id="stab-scales" data-action="statsTab" data-tab="scales" data-i18n="stats.tabs.scales">Scales</button>
+      <button class="st-tab-btn" id="stab-chords" data-action="statsTab" data-tab="chords" data-i18n="stats.tabs.chords">Chords</button>
+    </div>
+    <div id="stats-items"></div>
+    <div style="margin-top:24px;text-align:center;">
+      <button data-action="confirmResetStats" style="font-size:10px;color:var(--textMuted);border:1px solid var(--border);border-radius:6px;padding:6px 14px;background:transparent;" data-i18n="stats.resetButton">Reset statistics</button>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
