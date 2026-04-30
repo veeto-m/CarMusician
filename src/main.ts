@@ -42,7 +42,7 @@ import { acquireWakeLock } from '@/audio/wake-lock';
 import { startKeepAlive, setMediaSessionHandlers } from '@/audio/keep-alive';
 import { hydrateDom } from '@/i18n';
 
-const APP_VERSION = 'v2026.04.28.4';
+const APP_VERSION = 'v2026.04.30.1';
 
 function wireActions(): void {
   document.body.addEventListener('click', (e) => {
